@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3rem;
+	background: #f9f9f9
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 2rem;
+}
+
+header {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+header h1 span {
+	color: #2e42c7
+}
+
+header p {
+	font-size: 1.2rem;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	margin-bottom: 2rem;
+	background-color: #f1f1f1;
+}
+
+img {
+	width: 100%;
+	height: 400px;
+}
+
+.card > div {
+	padding: 2rem;
+}
+
+div h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+div p {
+	font-size: 1.3rem;
+	margin-bottom: 4rem;
+}
+
+.btn {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	padding: 0.8rem 1.8rem;
+
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
